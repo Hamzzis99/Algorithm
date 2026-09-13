@@ -59,4 +59,3 @@ if name in scores:
     print(name, scores[name])
 else:
     print(name, "is not in scores")
-
