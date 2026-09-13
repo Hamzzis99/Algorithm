@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945f74d7-3cca-4185-8325-647b0191455c" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/p07_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/p07_module.py" afterDir="false" />
-    </list>
+    <list default="true" id="945f74d7-3cca-4185-8325-647b0191455c" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +31,7 @@
     "Python.p03_tuple.executor": "Run",
     "Python.p04_function..executor": "Run",
     "Python.p05_class.executor": "Run",
+    "Python.p07_module.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
