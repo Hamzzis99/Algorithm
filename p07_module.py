@@ -64,7 +64,7 @@ def run_pygame_window():
     pg.init()
     screen = pg.display.set_mode((640, 480))
     pg.display.set_caption("Python Module Demo")
-    
+
     demo_points = [(-120, -60), (0, 0), (120, 80)]
 
     def to_screen(x, y):
@@ -90,7 +90,12 @@ def run_pygame_window():
         pg.draw.line(screen, (180, 180, 180), (0, center_y), (width, center_y), 1)
         pg.draw.line(screen, (180, 180, 180), (center_x, 0), (center_x, height), 1)
         pg.display.flip()
-
+        # 선은 두 점 사이의 관계를 보여줄 때 사용합니다.
+        # 그래프 알고리즘에서는 정점 사이의 간선을 그릴 때 같은 생각을 씁니다.
+        for i in range(len(demo_points) - 1):
+            start = to_screen(demo_points[i][0], demo_points[i][1])
+            end = to_screen(demo_points[i + 1][0], demo_points[i + 1][1])
+            pg.draw.line(screen, (217, 119, 6), start, end, 3)
     pg.quit()
 
 
