@@ -64,6 +64,14 @@ def run_pygame_window():
     pg.init()
     screen = pg.display.set_mode((640, 480))
     pg.display.set_caption("Python Module Demo")
+    
+    demo_points = [(-120, -60), (0, 0), (120, 80)]
+
+    def to_screen(x, y):
+        width, height = screen.get_size()
+        center_x = width // 2
+        center_y = height // 2
+        return center_x + x, center_y - y
 
     running = True
     while running:
