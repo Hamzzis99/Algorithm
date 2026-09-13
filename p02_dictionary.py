@@ -45,8 +45,18 @@ if name in scores:
 else:
     print(name, "is not in scores")
 
+print()
+
+
+print("-- get with default value --")
+
+print("Kim:", scores.get("Kim", 0))
+print("Choi:", scores.get("Choi", 0))
+print("after get:", scores)
+
 name = "Kim"
 if name in scores:
     print(name, scores[name])
 else:
     print(name, "is not in scores")
+
