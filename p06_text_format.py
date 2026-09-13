@@ -27,3 +27,16 @@ print("{1} points were scored by {0}".format(name, score))
 
 # 이름을 쓰면 출력 문장의 의미가 더 분명해집니다.
 print("{student}: {points}".format(student=name, points=score))
+print()
+
+
+print("-- format function --")
+
+# format()은 문자열 안의 {} 자리에 값을 채웁니다.
+print("{} scored {} points".format(name, score))
+
+# 번호를 쓰면 값을 넣을 위치를 직접 정할 수 있습니다.
+print("{1} points were scored by {0}".format(name, score))
+
+# 이름을 쓰면 출력 문장의 의미가 더 분명해집니다.
+print("{student}: {points}".format(student=name, points=score))
